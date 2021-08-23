@@ -1,0 +1,16 @@
+[20-Aug-2021 05:31:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/horek940/public_html/salesystem/apps/route/config.php on line 7
+[20-Aug-2021 05:31:54 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/horek940/public_html/salesystem/apps/route/config.php on line 9
+[20-Aug-2021 05:31:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/horek940/public_html/salesystem/apps/route/config.php:15
+Stack trace:
+#0 /home/horek940/public_html/salesystem/apps/route/config.php(15): PDO->__construct('mysql:host=loca...', 'horek940_salsys', 'Garuda752021')
+#1 /home/horek940/public_html/salesystem/apps/route/getPrice.php(2): include('/home/horek940/...')
+#2 {main}
+  thrown in /home/horek940/public_html/salesystem/apps/route/config.php on line 15
+[20-Aug-2021 05:32:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/horek940/public_html/salesystem/apps/route/config.php on line 7
+[20-Aug-2021 05:32:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/horek940/public_html/salesystem/apps/route/config.php on line 9
+[20-Aug-2021 05:32:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/horek940/public_html/salesystem/apps/route/config.php:15
+Stack trace:
+#0 /home/horek940/public_html/salesystem/apps/route/config.php(15): PDO->__construct('mysql:host=loca...', 'horek940_salsys', 'Garuda752021')
+#1 /home/horek940/public_html/salesystem/apps/route/getPrice.php(2): include('/home/horek940/...')
+#2 {main}
+  thrown in /home/horek940/public_html/salesystem/apps/route/config.php on line 15
